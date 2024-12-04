@@ -101,6 +101,7 @@
             // dOMICILIOToolStripMenuItem
             // 
             this.dOMICILIOToolStripMenuItem.BackColor = System.Drawing.Color.LightCyan;
+            this.dOMICILIOToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("dOMICILIOToolStripMenuItem.Image")));
             this.dOMICILIOToolStripMenuItem.Name = "dOMICILIOToolStripMenuItem";
             this.dOMICILIOToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.dOMICILIOToolStripMenuItem.Text = "DOMICILIO";
@@ -108,6 +109,7 @@
             // 
             // cOLONIASToolStripMenuItem
             // 
+            this.cOLONIASToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cOLONIASToolStripMenuItem.Image")));
             this.cOLONIASToolStripMenuItem.Name = "cOLONIASToolStripMenuItem";
             this.cOLONIASToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.cOLONIASToolStripMenuItem.Text = "COLONIAS";
@@ -126,6 +128,7 @@
             // tsBibliotecario
             // 
             this.tsBibliotecario.BackColor = System.Drawing.Color.LightCyan;
+            this.tsBibliotecario.Image = ((System.Drawing.Image)(resources.GetObject("tsBibliotecario.Image")));
             this.tsBibliotecario.Name = "tsBibliotecario";
             this.tsBibliotecario.Size = new System.Drawing.Size(254, 26);
             this.tsBibliotecario.Text = "BIBLIOTECARIO";
@@ -133,6 +136,7 @@
             // 
             // cLIENTESToolStripMenuItem
             // 
+            this.cLIENTESToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cLIENTESToolStripMenuItem.Image")));
             this.cLIENTESToolStripMenuItem.Name = "cLIENTESToolStripMenuItem";
             this.cLIENTESToolStripMenuItem.Size = new System.Drawing.Size(254, 26);
             this.cLIENTESToolStripMenuItem.Text = "CLIENTES";
@@ -154,6 +158,7 @@
             // tsAutores
             // 
             this.tsAutores.BackColor = System.Drawing.Color.LightCyan;
+            this.tsAutores.Image = ((System.Drawing.Image)(resources.GetObject("tsAutores.Image")));
             this.tsAutores.Name = "tsAutores";
             this.tsAutores.Size = new System.Drawing.Size(232, 26);
             this.tsAutores.Text = "AUTORES";
@@ -162,6 +167,7 @@
             // tsGeneros
             // 
             this.tsGeneros.BackColor = System.Drawing.Color.Azure;
+            this.tsGeneros.Image = ((System.Drawing.Image)(resources.GetObject("tsGeneros.Image")));
             this.tsGeneros.Name = "tsGeneros";
             this.tsGeneros.Size = new System.Drawing.Size(232, 26);
             this.tsGeneros.Text = "GÉNEROS";
@@ -170,6 +176,7 @@
             // tsEditoriales
             // 
             this.tsEditoriales.BackColor = System.Drawing.Color.LightCyan;
+            this.tsEditoriales.Image = ((System.Drawing.Image)(resources.GetObject("tsEditoriales.Image")));
             this.tsEditoriales.Name = "tsEditoriales";
             this.tsEditoriales.Size = new System.Drawing.Size(232, 26);
             this.tsEditoriales.Text = "EDITORIALES";
@@ -178,6 +185,7 @@
             // tsCategorias
             // 
             this.tsCategorias.BackColor = System.Drawing.Color.Azure;
+            this.tsCategorias.Image = ((System.Drawing.Image)(resources.GetObject("tsCategorias.Image")));
             this.tsCategorias.Name = "tsCategorias";
             this.tsCategorias.Size = new System.Drawing.Size(232, 26);
             this.tsCategorias.Text = "CATEGORÍAS";
@@ -186,9 +194,11 @@
             // tsLibros
             // 
             this.tsLibros.BackColor = System.Drawing.Color.LightCyan;
+            this.tsLibros.Image = ((System.Drawing.Image)(resources.GetObject("tsLibros.Image")));
             this.tsLibros.Name = "tsLibros";
             this.tsLibros.Size = new System.Drawing.Size(232, 26);
             this.tsLibros.Text = "LIBROS";
+            this.tsLibros.Click += new System.EventHandler(this.tsLibros_Click);
             // 
             // label1
             // 

@@ -45,6 +45,7 @@
             this.txtCP = new System.Windows.Forms.TextBox();
             this.txtReferencias = new System.Windows.Forms.TextBox();
             this.cbColonias = new System.Windows.Forms.ComboBox();
+            this.btnImprimir = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -207,12 +208,26 @@
             this.cbColonias.Size = new System.Drawing.Size(384, 24);
             this.cbColonias.TabIndex = 26;
             // 
+            // btnImprimir
+            // 
+            this.btnImprimir.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnImprimir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnImprimir.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnImprimir.Location = new System.Drawing.Point(625, 469);
+            this.btnImprimir.Name = "btnImprimir";
+            this.btnImprimir.Size = new System.Drawing.Size(112, 34);
+            this.btnImprimir.TabIndex = 27;
+            this.btnImprimir.Text = "Imprimir";
+            this.btnImprimir.UseVisualStyleBackColor = false;
+            this.btnImprimir.Click += new System.EventHandler(this.btnImprimir_Click);
+            // 
             // frmDomicilios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Azure;
+            this.BackColor = System.Drawing.Color.LightCyan;
             this.ClientSize = new System.Drawing.Size(800, 531);
+            this.Controls.Add(this.btnImprimir);
             this.Controls.Add(this.cbColonias);
             this.Controls.Add(this.txtReferencias);
             this.Controls.Add(this.txtCP);
@@ -252,5 +267,6 @@
         private System.Windows.Forms.TextBox txtCP;
         private System.Windows.Forms.TextBox txtReferencias;
         private System.Windows.Forms.ComboBox cbColonias;
+        private System.Windows.Forms.Button btnImprimir;
     }
 }

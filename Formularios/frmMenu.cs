@@ -64,5 +64,11 @@ namespace ProyectoFinal_Biblioteca.Formularios
             frmBibliotecarios x = new frmBibliotecarios();
             x.Show();
         }
+
+        private void tsLibros_Click(object sender, EventArgs e)
+        {
+            frmLibros x = new frmLibros();  
+            x.Show();
+        }
     }
 }
