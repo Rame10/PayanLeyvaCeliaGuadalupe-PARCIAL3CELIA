@@ -70,5 +70,11 @@ namespace ProyectoFinal_Biblioteca.Formularios
             frmLibros x = new frmLibros();  
             x.Show();
         }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            frmPrestamo x = new frmPrestamo();
+            x.Show();
+        }
     }
 }

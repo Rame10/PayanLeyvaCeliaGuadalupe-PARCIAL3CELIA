@@ -73,6 +73,7 @@
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(112, 24);
             this.toolStripButton1.Text = "Prestamo";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // msMenu
             // 
@@ -103,7 +104,7 @@
             this.dOMICILIOToolStripMenuItem.BackColor = System.Drawing.Color.LightCyan;
             this.dOMICILIOToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("dOMICILIOToolStripMenuItem.Image")));
             this.dOMICILIOToolStripMenuItem.Name = "dOMICILIOToolStripMenuItem";
-            this.dOMICILIOToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.dOMICILIOToolStripMenuItem.Size = new System.Drawing.Size(205, 26);
             this.dOMICILIOToolStripMenuItem.Text = "DOMICILIO";
             this.dOMICILIOToolStripMenuItem.Click += new System.EventHandler(this.dOMICILIOToolStripMenuItem_Click);
             // 
@@ -111,7 +112,7 @@
             // 
             this.cOLONIASToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cOLONIASToolStripMenuItem.Image")));
             this.cOLONIASToolStripMenuItem.Name = "cOLONIASToolStripMenuItem";
-            this.cOLONIASToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.cOLONIASToolStripMenuItem.Size = new System.Drawing.Size(205, 26);
             this.cOLONIASToolStripMenuItem.Text = "COLONIAS";
             this.cOLONIASToolStripMenuItem.Click += new System.EventHandler(this.cOLONIASToolStripMenuItem_Click);
             // 

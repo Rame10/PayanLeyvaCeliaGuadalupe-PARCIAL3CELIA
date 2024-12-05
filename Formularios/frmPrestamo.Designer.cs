@@ -198,9 +198,9 @@
             this.btnCancelar.BackColor = System.Drawing.Color.MediumAquamarine;
             this.btnCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(817, 618);
+            this.btnCancelar.Location = new System.Drawing.Point(794, 618);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(84, 30);
+            this.btnCancelar.Size = new System.Drawing.Size(107, 30);
             this.btnCancelar.TabIndex = 43;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = false;
@@ -210,9 +210,9 @@
             this.btnAceptar.BackColor = System.Drawing.Color.MediumAquamarine;
             this.btnAceptar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAceptar.Location = new System.Drawing.Point(714, 618);
+            this.btnAceptar.Location = new System.Drawing.Point(673, 618);
             this.btnAceptar.Name = "btnAceptar";
-            this.btnAceptar.Size = new System.Drawing.Size(75, 30);
+            this.btnAceptar.Size = new System.Drawing.Size(97, 30);
             this.btnAceptar.TabIndex = 42;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = false;
@@ -242,6 +242,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmPrestamo";
             this.Text = "frmPrestamo";
+            this.Load += new System.EventHandler(this.frmPrestamo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgPrestamo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

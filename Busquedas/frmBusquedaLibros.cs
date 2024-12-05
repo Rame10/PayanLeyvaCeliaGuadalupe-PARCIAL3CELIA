@@ -26,7 +26,7 @@ namespace ProyectoFinal_Biblioteca.Busquedas
         {
             DataTable dt = new DataTable();
             con.Open();
-            SqlCommand cmd = new SqlCommand($"SELECT * FROM LIBRO where Titulo like '%{txtFiltro.Text}%'", con);
+            SqlCommand cmd = new SqlCommand($"Select L.id, L.Titulo, L.ISBN, A.Nombre AS Autor, G.Nombre AS Género, E.Nombre AS Editorial, C.Categoria, L.idAutor, L.idGenero, L.idEditorial, L.idCategoria from LIBRO L INNER JOIN AUTOR A ON A.id = L.idAutor INNER JOIN GENERO G ON G.id = L.idGenero INNER JOIN EDITORIAL E ON E.id = L.idEditorial INNER JOIN CATEGORIA C ON C.id = L.idCategoria where Titulo like '%{txtFiltro.Text}%'", con);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             da.Fill(dt);
             dgLibros.DataSource = dt;

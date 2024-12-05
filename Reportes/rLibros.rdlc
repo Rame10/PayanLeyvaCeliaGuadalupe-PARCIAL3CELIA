@@ -12,10 +12,10 @@
               <Width>2.5cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>3.02917cm</Width>
+              <Width>2.5cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>3.262cm</Width>
+              <Width>2.5cm</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>2.5cm</Width>
@@ -59,7 +59,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>DarkGoldenrod</BackgroundColor>
+                        <BackgroundColor>Purple</BackgroundColor>
                         <VerticalAlign>Middle</VerticalAlign>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
@@ -78,7 +78,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Nombre</Value>
+                              <Value>Titulo</Value>
                               <Style>
                                 <FontFamily>Impact</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -97,7 +97,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>DarkGoldenrod</BackgroundColor>
+                        <BackgroundColor>Purple</BackgroundColor>
                         <VerticalAlign>Middle</VerticalAlign>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
@@ -116,7 +116,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Apellido Paterno</Value>
+                              <Value>ISBN</Value>
                               <Style>
                                 <FontFamily>Impact</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -135,7 +135,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>DarkGoldenrod</BackgroundColor>
+                        <BackgroundColor>Purple</BackgroundColor>
                         <VerticalAlign>Middle</VerticalAlign>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
@@ -154,7 +154,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Apellido Materno</Value>
+                              <Value>Autor</Value>
                               <Style>
                                 <FontFamily>Impact</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -173,7 +173,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>DarkGoldenrod</BackgroundColor>
+                        <BackgroundColor>Purple</BackgroundColor>
                         <VerticalAlign>Middle</VerticalAlign>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
@@ -185,14 +185,14 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox2">
+                    <Textbox Name="Textbox13">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Domicilio</Value>
+                              <Value>Genero</Value>
                               <Style>
                                 <FontFamily>Impact</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -205,13 +205,13 @@
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Textbox2</rd:DefaultName>
+                      <rd:DefaultName>Textbox13</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>DarkGoldenrod</BackgroundColor>
+                        <BackgroundColor>Purple</BackgroundColor>
                         <VerticalAlign>Middle</VerticalAlign>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
@@ -230,7 +230,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Email</Value>
+                              <Value>Editorial</Value>
                               <Style>
                                 <FontFamily>Impact</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -249,7 +249,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>DarkGoldenrod</BackgroundColor>
+                        <BackgroundColor>Purple</BackgroundColor>
                         <VerticalAlign>Middle</VerticalAlign>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
@@ -268,7 +268,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Telefono</Value>
+                              <Value>Categoria</Value>
                               <Style>
                                 <FontFamily>Impact</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -287,7 +287,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>DarkGoldenrod</BackgroundColor>
+                        <BackgroundColor>Purple</BackgroundColor>
                         <VerticalAlign>Middle</VerticalAlign>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
@@ -328,7 +328,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>Cornsilk</BackgroundColor>
+                        <BackgroundColor>Plum</BackgroundColor>
                         <VerticalAlign>Middle</VerticalAlign>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
@@ -340,14 +340,14 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Nombre">
+                    <Textbox Name="Titulo">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!Nombre.Value</Value>
+                              <Value>=Fields!Titulo.Value</Value>
                               <Style>
                                 <FontFamily>Century</FontFamily>
                               </Style>
@@ -358,13 +358,13 @@
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Nombre</rd:DefaultName>
+                      <rd:DefaultName>Titulo</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>Cornsilk</BackgroundColor>
+                        <BackgroundColor>Plum</BackgroundColor>
                         <VerticalAlign>Middle</VerticalAlign>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
@@ -376,14 +376,14 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="ApellidoPaterno">
+                    <Textbox Name="ISBN">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!ApellidoPaterno.Value</Value>
+                              <Value>=Fields!ISBN.Value</Value>
                               <Style>
                                 <FontFamily>Century</FontFamily>
                               </Style>
@@ -394,13 +394,13 @@
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>ApellidoPaterno</rd:DefaultName>
+                      <rd:DefaultName>ISBN</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>Cornsilk</BackgroundColor>
+                        <BackgroundColor>Plum</BackgroundColor>
                         <VerticalAlign>Middle</VerticalAlign>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
@@ -412,14 +412,14 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="ApellidoMaterno">
+                    <Textbox Name="Autor">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!ApellidoMaterno.Value</Value>
+                              <Value>=Fields!Autor.Value</Value>
                               <Style>
                                 <FontFamily>Century</FontFamily>
                               </Style>
@@ -430,13 +430,13 @@
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>ApellidoMaterno</rd:DefaultName>
+                      <rd:DefaultName>Autor</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>Cornsilk</BackgroundColor>
+                        <BackgroundColor>Plum</BackgroundColor>
                         <VerticalAlign>Middle</VerticalAlign>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
@@ -448,14 +448,14 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Domicilio">
+                    <Textbox Name="Genero">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!Domicilio.Value</Value>
+                              <Value>=Fields!Genero.Value</Value>
                               <Style>
                                 <FontFamily>Century</FontFamily>
                               </Style>
@@ -466,13 +466,13 @@
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Domicilio</rd:DefaultName>
+                      <rd:DefaultName>Genero</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>Cornsilk</BackgroundColor>
+                        <BackgroundColor>Plum</BackgroundColor>
                         <VerticalAlign>Middle</VerticalAlign>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
@@ -484,14 +484,14 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Email">
+                    <Textbox Name="Editorial">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!Email.Value</Value>
+                              <Value>=Fields!Editorial.Value</Value>
                               <Style>
                                 <FontFamily>Century</FontFamily>
                               </Style>
@@ -502,13 +502,13 @@
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Email</rd:DefaultName>
+                      <rd:DefaultName>Editorial</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>Cornsilk</BackgroundColor>
+                        <BackgroundColor>Plum</BackgroundColor>
                         <VerticalAlign>Middle</VerticalAlign>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
@@ -520,14 +520,14 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Telefono">
+                    <Textbox Name="Categoria">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!Telefono.Value</Value>
+                              <Value>=Fields!Categoria.Value</Value>
                               <Style>
                                 <FontFamily>Century</FontFamily>
                               </Style>
@@ -538,13 +538,13 @@
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Telefono</rd:DefaultName>
+                      <rd:DefaultName>Categoria</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>Cornsilk</BackgroundColor>
+                        <BackgroundColor>Plum</BackgroundColor>
                         <VerticalAlign>Middle</VerticalAlign>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
@@ -579,11 +579,11 @@
             </TablixMember>
           </TablixMembers>
         </TablixRowHierarchy>
-        <DataSetName>dsRClientes</DataSetName>
-        <Top>3.16653cm</Top>
-        <Left>1.0287cm</Left>
+        <DataSetName>dsRLibros</DataSetName>
+        <Top>2.6162cm</Top>
+        <Left>0.88053cm</Left>
         <Height>1.2cm</Height>
-        <Width>18.79117cm</Width>
+        <Width>17.5cm</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -597,7 +597,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>REPORTE DE CLIENTES</Value>
+                <Value>REPORTE DE LIBROS</Value>
                 <Style>
                   <FontFamily>Cooper Black</FontFamily>
                   <FontSize>20pt</FontSize>
@@ -611,18 +611,18 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox19</rd:DefaultName>
-        <Top>0.92287cm</Top>
-        <Left>5.58187cm</Left>
-        <Height>1.25617cm</Height>
-        <Width>9.746cm</Width>
+        <Top>0.88053cm</Top>
+        <Left>3.38053cm</Left>
+        <Height>1.0445cm</Height>
+        <Width>12.5cm</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>
-            <Color>Gold</Color>
+            <Color>Plum</Color>
             <Style>Solid</Style>
             <Width>1.5pt</Width>
           </Border>
-          <BackgroundColor>DarkGoldenrod</BackgroundColor>
+          <BackgroundColor>Purple</BackgroundColor>
           <VerticalAlign>Middle</VerticalAlign>
           <PaddingLeft>2pt</PaddingLeft>
           <PaddingRight>2pt</PaddingRight>
@@ -636,10 +636,10 @@
       <Border>
         <Style>None</Style>
       </Border>
-      <BackgroundColor>PapayaWhip</BackgroundColor>
+      <BackgroundColor>LavenderBlush</BackgroundColor>
     </Style>
   </Body>
-  <Width>8.23643in</Width>
+  <Width>7.61976in</Width>
   <Page>
     <PageHeight>29.7cm</PageHeight>
     <PageWidth>21cm</PageWidth>
@@ -652,18 +652,18 @@
   </Page>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
-    <DataSource Name="dsRClientes">
+    <DataSource Name="dsRLibros">
       <ConnectionProperties>
         <DataProvider>System.Data.DataSet</DataProvider>
         <ConnectString>/* Local Connection */</ConnectString>
       </ConnectionProperties>
-      <rd:DataSourceID>cefac90a-9e8b-41a0-9316-d57ea12e0794</rd:DataSourceID>
+      <rd:DataSourceID>34d77cbd-ce08-43c7-a41b-b50faba7b3f4</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
-    <DataSet Name="dsRClientes">
+    <DataSet Name="dsRLibros">
       <Query>
-        <DataSourceName>dsRClientes</DataSourceName>
+        <DataSourceName>dsRLibros</DataSourceName>
         <CommandText>/* Local Query */</CommandText>
       </Query>
       <Fields>
@@ -671,45 +671,57 @@
           <DataField>id</DataField>
           <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
-        <Field Name="Nombre">
-          <DataField>Nombre</DataField>
+        <Field Name="Titulo">
+          <DataField>Titulo</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="ApellidoPaterno">
-          <DataField>ApellidoPaterno</DataField>
+        <Field Name="ISBN">
+          <DataField>ISBN</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="ApellidoMaterno">
-          <DataField>ApellidoMaterno</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="idDomicilio">
-          <DataField>idDomicilio</DataField>
+        <Field Name="idAutor">
+          <DataField>idAutor</DataField>
           <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
-        <Field Name="Domicilio">
-          <DataField>Domicilio</DataField>
+        <Field Name="Autor">
+          <DataField>Autor</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="Email">
-          <DataField>Email</DataField>
+        <Field Name="idGenero">
+          <DataField>idGenero</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Genero">
+          <DataField>Genero</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="Telefono">
-          <DataField>Telefono</DataField>
+        <Field Name="idEditorial">
+          <DataField>idEditorial</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Editorial">
+          <DataField>Editorial</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="idCategoria">
+          <DataField>idCategoria</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Categoria">
+          <DataField>Categoria</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
       </Fields>
       <rd:DataSetInfo>
-        <rd:DataSetName>dsRClientes</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Celia Guadalupe\Documents\Aplicaciones de Escritorio\ProyectoFinal_Biblioteca\dsRClientes.xsd</rd:SchemaPath>
-        <rd:TableName>vClientes</rd:TableName>
+        <rd:DataSetName>dsRLibros</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\Celia Guadalupe\Documents\Aplicaciones de Escritorio\ProyectoFinal_Biblioteca\dsRLibros.xsd</rd:SchemaPath>
+        <rd:TableName>vLibros</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
-        <rd:TableAdapterName>vClientesTableAdapter</rd:TableAdapterName>
+        <rd:TableAdapterName>vLibrosTableAdapter</rd:TableAdapterName>
       </rd:DataSetInfo>
     </DataSet>
   </DataSets>
   <rd:ReportUnitType>Cm</rd:ReportUnitType>
-  <rd:ReportID>48b51e9b-0684-4e68-ae13-ae5d7e3a79a0</rd:ReportID>
+  <rd:ReportID>91827bc2-cf42-4a66-9c02-edcfcc2e4016</rd:ReportID>
 </Report>

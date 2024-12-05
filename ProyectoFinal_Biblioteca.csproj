@@ -132,10 +132,16 @@
     <Compile Include="Clases\Generos.cs" />
     <Compile Include="Clases\Herramientas.cs" />
     <Compile Include="Clases\Libros.cs" />
+    <Compile Include="Clases\Prestamo.cs" />
     <Compile Include="dsRClientes.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>dsRClientes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsRLibros.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRLibros.xsd</DependentUpon>
     </Compile>
     <Compile Include="dsvDomicilios.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -314,6 +320,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes\rClientes.rdlc" />
     <EmbeddedResource Include="Reportes\rDomicilios.rdlc" />
+    <EmbeddedResource Include="Reportes\rLibros.rdlc" />
     <None Include="dsRClientes.xsc">
       <DependentUpon>dsRClientes.xsd</DependentUpon>
     </None>
@@ -324,6 +331,17 @@
     </None>
     <None Include="dsRClientes.xss">
       <DependentUpon>dsRClientes.xsd</DependentUpon>
+    </None>
+    <None Include="dsRLibros.xsc">
+      <DependentUpon>dsRLibros.xsd</DependentUpon>
+    </None>
+    <None Include="dsRLibros.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRLibros.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsRLibros.xss">
+      <DependentUpon>dsRLibros.xsd</DependentUpon>
     </None>
     <None Include="dsvDomicilios.xsc">
       <DependentUpon>dsvDomicilios.xsd</DependentUpon>

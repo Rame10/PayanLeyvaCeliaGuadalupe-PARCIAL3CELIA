@@ -38,7 +38,7 @@
             // 
             this.btnAceptar.BackColor = System.Drawing.Color.MediumAquamarine;
             this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAceptar.Location = new System.Drawing.Point(757, 40);
+            this.btnAceptar.Location = new System.Drawing.Point(739, 40);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(82, 40);
             this.btnAceptar.TabIndex = 6;
@@ -49,7 +49,7 @@
             // cbColonias
             // 
             this.cbColonias.FormattingEnabled = true;
-            this.cbColonias.Location = new System.Drawing.Point(259, 49);
+            this.cbColonias.Location = new System.Drawing.Point(241, 49);
             this.cbColonias.Name = "cbColonias";
             this.cbColonias.Size = new System.Drawing.Size(460, 24);
             this.cbColonias.TabIndex = 5;
@@ -58,7 +58,7 @@
             // 
             this.chTodo.AutoSize = true;
             this.chTodo.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chTodo.Location = new System.Drawing.Point(158, 51);
+            this.chTodo.Location = new System.Drawing.Point(140, 51);
             this.chTodo.Name = "chTodo";
             this.chTodo.Size = new System.Drawing.Size(66, 20);
             this.chTodo.TabIndex = 4;
@@ -71,7 +71,7 @@
             this.rvDomicilios.Location = new System.Drawing.Point(47, 120);
             this.rvDomicilios.Name = "rvDomicilios";
             this.rvDomicilios.ServerReport.BearerToken = null;
-            this.rvDomicilios.Size = new System.Drawing.Size(926, 369);
+            this.rvDomicilios.Size = new System.Drawing.Size(839, 369);
             this.rvDomicilios.TabIndex = 7;
             // 
             // frmRDomicilios
@@ -79,7 +79,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCyan;
-            this.ClientSize = new System.Drawing.Size(1025, 530);
+            this.ClientSize = new System.Drawing.Size(946, 530);
             this.Controls.Add(this.rvDomicilios);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.cbColonias);

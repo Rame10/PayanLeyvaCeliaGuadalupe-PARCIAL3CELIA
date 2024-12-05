@@ -25,12 +25,12 @@ namespace ProyectoFinal_Biblioteca.Formularios
         void Cargarcb()
         {
             DataTable dt = new DataTable();
-            string consulta = "select * from COLONIA";
+            string consulta = "select * from DOMICILIO";
             SqlDataAdapter da = new SqlDataAdapter(consulta, con);
             con.Open();
             da.Fill(dt);
             con.Close();
-            cbDomicilio.DisplayMember = "Colonia";
+            cbDomicilio.DisplayMember = "Calle";
             cbDomicilio.ValueMember = "id";
             cbDomicilio.DataSource = dt;
         }
@@ -118,8 +118,8 @@ namespace ProyectoFinal_Biblioteca.Formularios
             {
                 txtId.Text = x.dgBibliotecarios.SelectedRows[0].Cells["id"].Value.ToString();
                 txtNombre.Text = x.dgBibliotecarios.SelectedRows[0].Cells["Nombre"].Value.ToString();
-                txtAPaterno.Text = x.dgBibliotecarios.SelectedRows[0].Cells["APaterno"].Value.ToString();
-                txtAMaterno.Text = x.dgBibliotecarios.SelectedRows[0].Cells["AMaterno"].Value.ToString();
+                txtAPaterno.Text = x.dgBibliotecarios.SelectedRows[0].Cells["ApellidoPaterno"].Value.ToString();
+                txtAMaterno.Text = x.dgBibliotecarios.SelectedRows[0].Cells["ApellidoMaterno"].Value.ToString();
                 cbDomicilio.SelectedValue = int.Parse(x.dgBibliotecarios.SelectedRows[0].Cells["idDomicilio"].Value.ToString());
                 dtpFechaNacimiento.Value = DateTime.Parse(x.dgBibliotecarios.SelectedRows[0].Cells["FechaDeNacimiento"].Value.ToString());
                 txtTelefono.Text = x.dgBibliotecarios.SelectedRows[0].Cells["Telefono"].Value.ToString();

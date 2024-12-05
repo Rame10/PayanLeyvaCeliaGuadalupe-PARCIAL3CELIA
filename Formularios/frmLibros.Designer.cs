@@ -49,6 +49,7 @@
             this.cbGeneros = new System.Windows.Forms.ComboBox();
             this.cbEditoriales = new System.Windows.Forms.ComboBox();
             this.cbCategorias = new System.Windows.Forms.ComboBox();
+            this.btnImprimir = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -247,12 +248,26 @@
             this.cbCategorias.Size = new System.Drawing.Size(286, 24);
             this.cbCategorias.TabIndex = 91;
             // 
+            // btnImprimir
+            // 
+            this.btnImprimir.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.btnImprimir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnImprimir.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnImprimir.Location = new System.Drawing.Point(541, 429);
+            this.btnImprimir.Name = "btnImprimir";
+            this.btnImprimir.Size = new System.Drawing.Size(107, 34);
+            this.btnImprimir.TabIndex = 92;
+            this.btnImprimir.Text = "Imprimir";
+            this.btnImprimir.UseVisualStyleBackColor = false;
+            this.btnImprimir.Click += new System.EventHandler(this.btnImprimir_Click);
+            // 
             // frmLibros
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCyan;
             this.ClientSize = new System.Drawing.Size(800, 490);
+            this.Controls.Add(this.btnImprimir);
             this.Controls.Add(this.cbCategorias);
             this.Controls.Add(this.cbEditoriales);
             this.Controls.Add(this.cbGeneros);
@@ -301,5 +316,6 @@
         private System.Windows.Forms.ComboBox cbGeneros;
         private System.Windows.Forms.ComboBox cbEditoriales;
         private System.Windows.Forms.ComboBox cbCategorias;
+        private System.Windows.Forms.Button btnImprimir;
     }
 }

@@ -25,14 +25,14 @@ namespace ProyectoFinal_Biblioteca.Reportes
         void Cargarcb()
         {
             DataTable dt = new DataTable();
-            string consulta = "select * from COLONIA";
+            string consulta = "select * from CLIENTE";
             SqlDataAdapter da = new SqlDataAdapter(consulta, con);
             con.Open();
             da.Fill(dt);
             con.Close();
-            cbDomicilios.DisplayMember = "Colonia";
-            cbDomicilios.ValueMember = "id";
-            cbDomicilios.DataSource = dt;
+            cbClientes.DisplayMember = "APaterno";
+            cbClientes.ValueMember = "id";
+            cbClientes.DataSource = dt;
         }
         
         private void frmRClientes_Load(object sender, EventArgs e)
@@ -49,7 +49,7 @@ namespace ProyectoFinal_Biblioteca.Reportes
             }
             else
             {
-                consulta = $"select * from vClientes where idColonia = {cbDomicilios.SelectedValue.ToString()}";
+                consulta = $"select * from vClientes where id = {cbClientes.SelectedValue.ToString()}";
             }
             SqlDataAdapter da = new SqlDataAdapter(consulta, con);
             con.Open();

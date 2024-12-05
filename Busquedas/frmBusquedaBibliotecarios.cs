@@ -26,7 +26,7 @@ namespace ProyectoFinal_Biblioteca.Busquedas
         {
             DataTable dt = new DataTable();
             con.Open();
-            SqlCommand cmd = new SqlCommand($"SELECT * FROM BIBLIOTECARIO where Nombre like '%{txtFiltro.Text}%'", con);
+            SqlCommand cmd = new SqlCommand($"SELECT B.id, B.Nombre, B.APaterno as ApellidoPaterno, B.AMaterno as ApellidoMaterno, B.idDomicilio, D.CP as CódigoPostal, B.FechaDeNacimiento, B.Telefono, B.Email, B.RFC, B.NSS, B.Turno FROM BIBLIOTECARIO B INNER JOIN DOMICILIO D ON D.ID = B.idDomicilio where Nombre like '%{txtFiltro.Text}%'", con);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             da.Fill(dt);
             dgBibliotecarios.DataSource = dt;

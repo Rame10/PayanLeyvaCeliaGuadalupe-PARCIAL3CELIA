@@ -197,5 +197,11 @@ namespace ProyectoFinal_Biblioteca.Formularios
             MessageBox.Show(x.Eliminar());
             Limpiar();
         }
+
+        private void btnImprimir_Click(object sender, EventArgs e)
+        {
+            Reportes.frmRLibros x = new Reportes.frmRLibros();
+            x.ShowDialog();
+        }
     }
 }

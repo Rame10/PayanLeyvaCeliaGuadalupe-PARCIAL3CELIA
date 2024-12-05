@@ -30,7 +30,7 @@
         {
             this.rvClientes = new Microsoft.Reporting.WinForms.ReportViewer();
             this.btnAceptar = new System.Windows.Forms.Button();
-            this.cbDomicilios = new System.Windows.Forms.ComboBox();
+            this.cbClientes = new System.Windows.Forms.ComboBox();
             this.chTodo = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
@@ -55,13 +55,13 @@
             this.btnAceptar.UseVisualStyleBackColor = false;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
-            // cbDomicilios
+            // cbClientes
             // 
-            this.cbDomicilios.FormattingEnabled = true;
-            this.cbDomicilios.Location = new System.Drawing.Point(391, 51);
-            this.cbDomicilios.Name = "cbDomicilios";
-            this.cbDomicilios.Size = new System.Drawing.Size(460, 24);
-            this.cbDomicilios.TabIndex = 9;
+            this.cbClientes.FormattingEnabled = true;
+            this.cbClientes.Location = new System.Drawing.Point(391, 51);
+            this.cbClientes.Name = "cbClientes";
+            this.cbClientes.Size = new System.Drawing.Size(460, 24);
+            this.cbClientes.TabIndex = 9;
             // 
             // chTodo
             // 
@@ -82,7 +82,7 @@
             this.ClientSize = new System.Drawing.Size(1218, 579);
             this.Controls.Add(this.rvClientes);
             this.Controls.Add(this.btnAceptar);
-            this.Controls.Add(this.cbDomicilios);
+            this.Controls.Add(this.cbClientes);
             this.Controls.Add(this.chTodo);
             this.Name = "frmRClientes";
             this.Text = "frmClientes";
@@ -96,7 +96,7 @@
 
         private Microsoft.Reporting.WinForms.ReportViewer rvClientes;
         private System.Windows.Forms.Button btnAceptar;
-        private System.Windows.Forms.ComboBox cbDomicilios;
+        private System.Windows.Forms.ComboBox cbClientes;
         private System.Windows.Forms.CheckBox chTodo;
     }
 }
